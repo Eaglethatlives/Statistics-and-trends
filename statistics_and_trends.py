@@ -16,11 +16,11 @@ Ensure that the dataset ('data.csv') is
 present in the working directory.
 """
 from corner import corner
- import matplotlib.pyplot as plt
- import numpy as np
- import pandas as pd
- import scipy.stats as ss
- import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import scipy.stats as ss
+import seaborn as sns
 
 
  def plot_relational_plot(df):
