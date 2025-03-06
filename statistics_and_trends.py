@@ -1,20 +1,3 @@
-"""
-This is the template file for the statistics and trends assignment.
-You will be expected to complete all the sections and
-make this a fully working, documented file.
-You should NOT change any function, file or variable names,
- if they are given to you here.
-Make use of the functions presented in the lectures
-and ensure your code is PEP-8 compliant, including docstrings.
-"""
-"""
-This code gives a graphical representation of makeup brand color 
-properties using statistical and graphical methods.
-It includes functions for data preprocessing, 
-visualization, and analysis.
-Ensure that the dataset ('data.csv') is 
-present in the working directory.
-"""
 from corner import corner
 import matplotlib.pyplot as plt
 import numpy as np
