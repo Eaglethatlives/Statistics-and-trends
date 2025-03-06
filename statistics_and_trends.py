@@ -23,7 +23,7 @@ import scipy.stats as ss
 import seaborn as sns
 
 
- def plot_relational_plot(df):
+def plot_relational_plot(df):
     """This creates scatter plots"""
    
     fig, ax = plt.subplots(2, 2, figsize=(12, 10))  
@@ -164,7 +164,6 @@ def main():
     moments = statistical_analysis(df, col)
     writing(moments, col)
     return
-
 
 if __name__ == '__main__':
     main()
